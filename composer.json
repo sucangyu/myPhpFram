@@ -5,7 +5,8 @@
     "type": "Framework",
     "require": {
         "php": ">=5.3.0",
-        "filp/whoops": "*"
-        
+        "filp/whoops": "*",
+        "symfony/var-dumper": "*",
+        "catfan/medoo":"*"
     }
 }
