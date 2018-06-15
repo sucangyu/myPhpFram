@@ -31,7 +31,7 @@ include CORE.'/common/function.php';
 
 //加载框架核心文件启动框架
 include CORE.'/imooc.php';
-
+//spl_autoload_register是实现自动加载未定义类功能的的重要方法
 spl_autoload_register('\core\imooc::load');
 
 //命名空间静态方法

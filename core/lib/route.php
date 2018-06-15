@@ -2,10 +2,11 @@
 namespace core\lib;
 use core\lib\conf;
 class route {
-	public $ctrl;
-	public $action;
+	public $ctrl;//控制器
+	public $action;//方法
 	public function __construct(){
-		//1.隐藏index.php入口文件
+		//1.隐藏index.php入口文件 
+		//  在根目录新建 .htaccess文件 .htaccess文件是把 xxx.com/index/index映射成为真正路径xxx.com/index.php/index/index
 		//2.获取URL参数部分
 		//3.返回控制器和方法
 		
