@@ -35,7 +35,7 @@ function post($name,$default=false,$fitt=false){
 					break;
 			}
 		}else{
-			return $_POST[$name]
+			return $_POST[$name];
 		}
 	}else{
 		return $default;
